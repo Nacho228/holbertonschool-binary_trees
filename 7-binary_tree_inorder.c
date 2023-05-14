@@ -4,6 +4,7 @@
  * @tree: tree to be resorted.
  * @func: func to call for each node.
  * Return: void.
+ * Time complexity: O(N).
 */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
