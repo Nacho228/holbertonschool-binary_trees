@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-
+#include "3-binary_tree_delete.c"
 /**
  * binary_tree_node - function that creates a new node in a BT.
  * @parent: is a pointer to the root node.
@@ -14,6 +14,7 @@ if (!new)
 {
     return(NULL);   
 }
+
 
 new->parent = parent;
 new->n = value;
